@@ -26,11 +26,5 @@ int main(int argc, char *argv[]) {
 	}
 	printf("\nmin element is %d", min);
 	getch();
-	
-	for(i=0; i<n; i++){
-		if(a[i]<1)
-			for(i=0; i<n-1; i++){
-			a[i] = a[i+1];	
-	}
-}
+
 }
